@@ -1,0 +1,21 @@
+language: go
+
+go:
+  - 1.18.x
+
+git:
+  depth: 1
+
+matrix:
+  fast_finish: true
+
+before_install:
+  - go get github.com/mgechev/revive
+
+script:
+  - test -z "$(revive -config=revive.toml -exclude=internal/ ./...)"
+  - go test -v -race -covermode=atomic -coverprofile=coverage.txt ./...
+  - go vet ./...
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

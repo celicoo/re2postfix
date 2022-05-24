@@ -1,0 +1,5 @@
+github.com/celicoo/alligopher v0.0.0-20211103194405-23fc89513cc5/go.mod h1:aPA5b4IuAxNl3PjRYgg1lDM9IMutomCpcf3s8/T1nPo=
+github.com/celicoo/docli/v3 v3.0.0-20211216215307-033ad13e43c6/go.mod h1:ujrPkK50b1Y+jR5Y6hFKwnntcNVMYGUSJ7lroZMzjl4=
+github.com/celicoo/ttest v0.0.0-20211119185255-9dc3988ea6bd/go.mod h1:0sYG7xDcYeWRbp5lz+Eh13eqtzRH5IkyJk8wokKUF2M=
+github.com/celicoo/ttest v0.0.0-20220220135518-7bb6907ab1ce h1:efNjJzAhqKzEFIgs80LLpUDuLDk/Yc2kkCGplp59vaM=
+github.com/celicoo/ttest v0.0.0-20220220135518-7bb6907ab1ce/go.mod h1:5oHDhscVCIGfXgqPz7uw1Or9x3OshaNY9QMyCyQ7iFw=
